@@ -10,3 +10,10 @@ jdk:
 #branches:
  # only:
   #  - testing  
+notifications:
+     email:
+         recipients:
+              - buildsampletest@gmail.com
+             - vidya@shippable.com
+         on_success: always
+         on_failure: always  
